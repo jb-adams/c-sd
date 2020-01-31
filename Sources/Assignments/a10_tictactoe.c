@@ -46,8 +46,6 @@ int main() {
     } else {
         printf("\nGame over, it's a draw!\n");
     }
-
-
 }
 
 int getChoice(int player, char board[]) {

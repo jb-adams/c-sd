@@ -31,6 +31,13 @@ make_all:
 	${CC} ${OUT_LECT}/castsizeof ${SRC_LECT}/6_32_cast_sizeof.c
 	${CC} ${OUT_LECT}/arrays ${SRC_LECT}/8_57_arrays.c
 	${CC} ${OUT_LECT}/array_initialization ${SRC_LECT}/8_58_array_initialization.c
+	${CC} ${OUT_LECT}/string_functions ${SRC_LECT}/10_77_string_functions.c
+	${CC} ${OUT_LECT}/string_functions_cont ${SRC_LECT}/10_78_string_functions_cont.c
+	${CC} ${OUT_LECT}/converting_strings ${SRC_LECT}/10_79_converting_strings.c
+	${CC} ${OUT_LECT}/pointers_define ${SRC_LECT}/12_90_defining_pointers.c
+	${CC} ${OUT_LECT}/pointers_access ${SRC_LECT}/12_91_accessing_pointers.c
+	${CC} ${OUT_LECT}/pointers_using ${SRC_LECT}/12_94_using_pointers.c
+	${CC} ${OUT_LECT}/pointers_void ${SRC_LECT}/12_96_void_pointers.c
 
 	${CC} ${OUT_ASSN}/firstname ${SRC_ASSN}/a00_first_name.c
 	${CC} ${OUT_ASSN}/rectangle ${SRC_ASSN}/a01_area_perimeter.c
@@ -43,3 +50,7 @@ make_all:
 	${CC} ${OUT_ASSN}/weather ${SRC_ASSN}/a08_weather.c
 	${CC} ${OUT_ASSN}/functions ${SRC_ASSN}/a09_functions.c
 	${CC} ${OUT_ASSN}/tictactoe ${SRC_ASSN}/a10_tictactoe.c
+	${CC} ${OUT_ASSN}/chararrays ${SRC_ASSN}/a11_chararrays.c
+	${CC} ${OUT_ASSN}/reversestring ${SRC_ASSN}/a12.1_reverse_string.c
+	${CC} ${OUT_ASSN}/sortstrings ${SRC_ASSN}/a12.2_sort_strings.c
+	${CC} ${OUT_ASSN}/pointers ${SRC_ASSN}/a13_pointers.c
