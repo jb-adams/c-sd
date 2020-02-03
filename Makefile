@@ -38,6 +38,17 @@ make_all:
 	${CC} ${OUT_LECT}/pointers_access ${SRC_LECT}/12_91_accessing_pointers.c
 	${CC} ${OUT_LECT}/pointers_using ${SRC_LECT}/12_94_using_pointers.c
 	${CC} ${OUT_LECT}/pointers_void ${SRC_LECT}/12_96_void_pointers.c
+	${CC} ${OUT_LECT}/pointers_arrays ${SRC_LECT}/12_97_pointers_arrays.c
+	${CC} ${OUT_LECT}/pointers_arithmetic ${SRC_LECT}/12_98_pointer_arithmetic.c
+	${CC} ${OUT_LECT}/pointers_arrays_example ${SRC_LECT}/12_99_pointers_arrays_example.c
+	${CC} ${OUT_LECT}/pointers_strings ${SRC_LECT}/12_100_pointers_strings.c
+	${CC} ${OUT_LECT}/pass_by_reference ${SRC_LECT}/12_103_pass_by_reference.c
+	${CC} ${OUT_LECT}/malloc_calloc_realloc ${SRC_LECT}/12_107_malloc_calloc_realloc.c
+	${CC} ${OUT_LECT}/structures ${SRC_LECT}/13_110_structures.c
+	${CC} ${OUT_LECT}/structs_arrays ${SRC_LECT}/13_111_structs_arrays.c
+	${CC} ${OUT_LECT}/structs_nested ${SRC_LECT}/13_112_nested_structs.c
+	${CC} ${OUT_LECT}/structs_pointers ${SRC_LECT}/13_113_structs_pointers.c
+	${CC} ${OUT_LECT}/structs_functions ${SRC_LECT}/13_114_structs_functions.c
 
 	${CC} ${OUT_ASSN}/firstname ${SRC_ASSN}/a00_first_name.c
 	${CC} ${OUT_ASSN}/rectangle ${SRC_ASSN}/a01_area_perimeter.c
@@ -54,3 +65,8 @@ make_all:
 	${CC} ${OUT_ASSN}/reversestring ${SRC_ASSN}/a12.1_reverse_string.c
 	${CC} ${OUT_ASSN}/sortstrings ${SRC_ASSN}/a12.2_sort_strings.c
 	${CC} ${OUT_ASSN}/pointers ${SRC_ASSN}/a13_pointers.c
+	${CC} ${OUT_ASSN}/pointerarithmetic ${SRC_ASSN}/a14_pointer_arithmetic.c
+	${CC} ${OUT_ASSN}/pointerparameter ${SRC_ASSN}/a15_pointer_parameter.c
+	${CC} ${OUT_ASSN}/dynamicmemory ${SRC_ASSN}/a16_dynamic_memory.c
+	${CC} ${OUT_ASSN}/structs ${SRC_ASSN}/a17_structures.c
+	${CC} ${OUT_ASSN}/structspointersfunctions ${SRC_ASSN}/a18_structs_pointers_functions.c
