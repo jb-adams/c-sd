@@ -49,6 +49,11 @@ make_all:
 	${CC} ${OUT_LECT}/structs_nested ${SRC_LECT}/13_112_nested_structs.c
 	${CC} ${OUT_LECT}/structs_pointers ${SRC_LECT}/13_113_structs_pointers.c
 	${CC} ${OUT_LECT}/structs_functions ${SRC_LECT}/13_114_structs_functions.c
+	${CC} ${OUT_LECT}/files_access ${SRC_LECT}/14_120_accessing_files.c
+	${CC} ${OUT_LECT}/files_read ${SRC_LECT}/14_121_read_from_file.c
+	${CC} ${OUT_LECT}/files_write ${SRC_LECT}/14_122_write_to_file.c
+	${CC} ${OUT_LECT}/files_write ${SRC_LECT}/14_122_write_to_file.c
+	${CC} ${OUT_LECT}/files_position ${SRC_LECT}/14_123_file_position.c
 
 	${CC} ${OUT_ASSN}/firstname ${SRC_ASSN}/a00_first_name.c
 	${CC} ${OUT_ASSN}/rectangle ${SRC_ASSN}/a01_area_perimeter.c
@@ -70,3 +75,6 @@ make_all:
 	${CC} ${OUT_ASSN}/dynamicmemory ${SRC_ASSN}/a16_dynamic_memory.c
 	${CC} ${OUT_ASSN}/structs ${SRC_ASSN}/a17_structures.c
 	${CC} ${OUT_ASSN}/structspointersfunctions ${SRC_ASSN}/a18_structs_pointers_functions.c
+	${CC} ${OUT_ASSN}/files ${SRC_ASSN}/a19_files.c
+	${CC} ${OUT_ASSN}/filewrite ${SRC_ASSN}/a20_filewrite.c
+	${CC} ${OUT_ASSN}/fileseektell ${SRC_ASSN}/a21_file_seek_tell.c
