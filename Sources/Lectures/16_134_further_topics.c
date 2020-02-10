@@ -24,6 +24,4 @@
  * advanced use of gdb (GNU debugger)
  * profiling and tracing tools (gprof, dtrace, strace)
  * memory debugging tools such as valgrind
- * 
- * 
  */
